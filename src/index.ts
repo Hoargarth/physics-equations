@@ -1,12 +1,9 @@
-export function helloTest() {
-    return 'hello';
-}
+import SpeedVelocity from "./mechanics/speed-velocity";
 
-export function secondTest() {
-    return 'second';
+const Mechanics = {
+    SpeedVelocity,
 }
 
 export default {
-    helloTest,
-    secondTest
-};
+    Mechanics,
+}

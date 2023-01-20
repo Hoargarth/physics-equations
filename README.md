@@ -33,3 +33,9 @@ This will compile the TS files into CommonJS- and ES-modules.
 
 `npm run test`<br>
 Runs all the test cases using Jest as testing library
+
+`npm run test:watch`<br>
+Watch code changes and run tests based on uncommited files
+
+`npm run test:watch-all`<br>
+Watch code changes and run all tests
